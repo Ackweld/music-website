@@ -24,6 +24,6 @@
 
 .carouselItem {
     width: 100vw;
-    height: 50vh;
+    height: 30vh;
     object-fit:cover;
 }

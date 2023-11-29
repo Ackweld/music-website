@@ -7,6 +7,7 @@ export const Header = () => {
       <label>My work</label>
       <label>Contact me</label>
       <label>Downloads</label>
+      <label>My services</label>
     </header>
   );
 };

@@ -12,8 +12,8 @@ function App() {
   return (
     <div className={styles.main}>
       <div className={styles.header}>
-        <Header />
         <ImageCarousel />
+        <Header />
       </div>
       <div className={styles.pageContent}>
         <Biography />
