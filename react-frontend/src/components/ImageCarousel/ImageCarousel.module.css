@@ -1,0 +1,29 @@
+.imageCarouselContainer {
+    position: relative;
+    display: inline-block;
+    display: flex;
+}
+  
+.arrowButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+  
+.left {
+    left: 0;
+}
+  
+.right {
+    right: 0;
+}
+
+.carouselItem {
+    width: 100vw;
+    height: 50vh;
+    object-fit:cover;
+}

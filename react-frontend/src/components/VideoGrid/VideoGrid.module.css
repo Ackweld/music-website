@@ -1,0 +1,15 @@
+.videoGrid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.thumbnail {
+    width: 100%;
+    height: 30vh;
+    object-fit:cover;
+}
+.thumbnail:hover {
+    cursor: pointer;
+}
